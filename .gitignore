@@ -1,2 +1,47 @@
-data\
-env\
+# Ignore node_modules (for Node.js)
+node_modules/
+
+# Ignore Python virtual environment directories
+.venv/
+venv/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore VS Code settings and workspace
+.vscode/
+
+# Ignore DVC folder (if you use Data Version Control)
+.dvc/
+
+# Ignore log files
+*.log
+
+# Ignore environment variable files
+.env
+
+# Ignore system-specific files and directories
+.idea/
+Thumbs.db
+
+# Ignore any backup or temporary files
+*.bak
+*.swp
+
+# Ignore Git conflict files
+*.orig
+
+# Ignore the coverage report directory for testing
+coverage/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore npm debug files (if using npm)
+npm-debug.log*
+data/
+env/
